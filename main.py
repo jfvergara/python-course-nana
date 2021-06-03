@@ -25,7 +25,7 @@ def validate_and_execute():
 
 user_input = ""
 while user_input != "exit":
-    user_input = input("Enter number of days and conversion unit:\n")  # This is a env variable
+    user_input = input("Hi, Enter number of days and conversion unit:\n")  # This is a env variable
     days_and_units = user_input.split(":")
     print(days_and_units)
     days_and_unit_dictionary = {"days": days_and_units[0], "unit": days_and_units[1]}

@@ -21,4 +21,4 @@ def validate_and_execute(days_and_unit_dictionary):
         print("Your input is not a number!!")
 
 
-user_input_message = "Hi, Enter number of days and conversion unit:\n"
+user_input_message = "Hi, Please enter number of days and conversion unit:\n"
